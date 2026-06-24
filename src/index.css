@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Space Grotesk", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-bg: #0A0A0A;
+  --color-brand-card: #1A1A1A;
+  --color-brand-primary: #7B2FF7;
+  --color-brand-secondary: #9D4EDD;
+  --color-brand-accent: #C77DFF;
+  --color-brand-text: #FFFFFF;
+  --color-brand-muted: #8E9299;
+  --color-brand-glass: rgba(255, 255, 255, 0.03);
+  --color-brand-border: rgba(255, 255, 255, 0.08);
+}
+
+/* Custom scrollbar utility */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Base style resets to fit the Elegant Dark mood perfectly */
+body {
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+}
+
+/* Gradient background from Design HTML */
+.elegant-dark-gradient {
+  background: linear-gradient(135deg, #0A0A0A 0%, #120821 100%);
+}
+
+.elegant-glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.elegant-card {
+  background: #1A1A1A;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glow-primary {
+  box-shadow: 0 8px 24px rgba(123, 47, 247, 0.3);
+}
+
+.glow-fab {
+  box-shadow: 0 12px 32px rgba(123, 47, 247, 0.4);
+}
+
+

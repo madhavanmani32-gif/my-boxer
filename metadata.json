@@ -1,0 +1,6 @@
+{
+  "name": "My Boxer",
+  "description": "A secure, premium Android-first digital vault for storing private images, notes, links, and passwords securely with IndexedDB offline persistence, biometric PIN lock, and dark glassmorphism styling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
